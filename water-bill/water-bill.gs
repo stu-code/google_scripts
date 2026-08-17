@@ -10,7 +10,7 @@ const CONFIG = {
   DATE_REGEX: /DUE DATE[\s*]*:[\s*]*(\d{1,2})-(\d{1,2})-(\d{4})/,
   EVENT_NAME: 'Water bill',
   LOOKBACK_DAYS: 30,           // how many days back to search Gmail
-  PROCESSED_LABEL: 'BillBot/-Processed',
+  PROCESSED_LABEL: 'BillBot-Processed',
   DRY_RUN: false                // set true to log what would happen without creating events
 };
 
