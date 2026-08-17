@@ -19,10 +19,6 @@ all-day "Blueberry" colored calendar event (no reminder) on the parsed due date 
 
 ## Testing
 
-There's a sample `.eml` in each folder (a real bill with the account details redacted) — that's
-what the `DATE_REGEX` in each script was written against, useful as a reference if you need to
-eyeball the wording/formatting a regex is matching against.
-
 Both scripts have a `DRY_RUN` flag at the top of the `CONFIG` block — set it to `true` and save
 before testing so `main` only logs what it *would* do instead of creating events or labeling
 Gmail threads. Run `main` from the function dropdown, then check **Executions**/**View → Logs**
